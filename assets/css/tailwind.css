@@ -1,0 +1,22 @@
+/* 【Tailwind CSS】標準で読み込まれるCSSについて | プログラミングマガジン */
+/* http://www.code-magagine.com/?p=16789 */
+
+/* @tailwind base; */
+/* @tailwind base;
+normalize.cssというファイルで定義されています。クロスブラウザにHTMLのデフォルトスタイルになります。
+（要は、ChromeやFirefoxなど各ブラウザによってデフォルトのスタイルが異なってくるので統一しましょうという思想にもとに作られたファイル）、Preflightとも呼ばれます。
+なので、tailwindを使う上では一昔前だと意識してやっていたreset.cssなどは意識せずに実装することが可能になるのです。
+以下の場所に格納されています。
+node_modules/tailwindcss/dist/base.css */
+
+@tailwind components;
+/* @tailwind components;
+ユーティリティパターン（ユーティリティクラスの集合）です。以下の場所に格納されています。containerしか含まれていません。
+以下の場所に格納されています。
+node_modules/tailwindcss/dist/components.css */
+
+@tailwind utilities;
+/* @tailwind utilities;
+ユーティリティクラス群(w-4、m-4など)です。以下の場所に格納されています。17万行もの莫大な行数になってます。
+以下の場所に格納されています。
+node_modules/tailwindcss/dist/utilities.css */

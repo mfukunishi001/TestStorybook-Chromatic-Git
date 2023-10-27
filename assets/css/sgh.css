@@ -1,0 +1,56 @@
+/* カスタムプロパティの定義 */
+:root {
+	/* カラーコード変換 - Hex、RGBA、HSLA、HSVA変換 | Web ToolBox */
+	/* https://web-toolbox.dev/tools/color-converter */
+
+	/* SgHブルー : RGB:rgb(59, 73, 159), HEX:#3B499F, HSLA:hsla(232,46%,43%,1), CMYK:cmyk(63%,54%,0%,38%) */
+	--SgH-blue: rgb(59, 73, 159);
+	/* ギャラクシーグレー : RGB:rgb(153,153,153), HEX:#999999, HSLA:hsla(0,0%,60%,1), CMYK:cmyk(0%,0%,0%,40%) */
+	--galaxy-gray: rgb(153, 153, 153);
+	/* 佐川レッド : RGB:rgb(230,0,18), HEX:#E60012, HSLA:hsla(355,100%,45%,1), CMYK:cmyk(0%,100%,92%,10%) */
+	--sg-red: rgb(230, 0, 18);
+	/* ワールドサプライブルー : RGB:rgb(31,143,255), HEX:#1F8FFF, HSLA:hsla(210,100%,56%,1), CMYK:cmyk(88%,44%,0%,0%) */
+	--world-supply-blue: rgb(31, 143, 255);
+	/* 飛脚クール便ブルー : RGB:rgb(0,176,236), HEX:#00B0EC, HSLA:hsla(195,100%,46%,1), CMYK:cmyk(100%,25%,0%,7%) */
+	--h-cool-blue: rgb(0, 176, 236);
+	/* e-コレクトグリーン : RGB:rgb(127,197,48), HEX:#7FC530, HSLA:hsla(88,61%,48%,1), CMYK:cmyk(36%,0%,76%,23%) */
+	--e-correct-green: rgb(127, 197, 48);
+	/* e-ロジスティクスグレー : RGB:rgb(159,160,160), HEX:#9FA0A0, HSLA:hsla(180,1%,63%,1), CMYK:cmyk(1%,0%,0%,37%) */
+	--e-logistics-gray: rgb(159, 160, 160);
+	/* Biz-シリーズブルー : RGB:rgb(0,185,239), HEX:#00B9EF, HSLA:hsla(194,100%,47%,1), CMYK:cmyk(100%,23%,0%,6%) */
+	--Biz-series-blue: rgb(0, 185, 239);
+	/* Biz-シリーズオレンジ : RGB:rgb(240,131,31), HEX:#F0831F, HSLA:hsla(29,87%,53%,1), CMYK:cmyk(0%,45%,87%,6%) */
+	--Biz-series-orange: rgb(240, 131, 31);
+}
+
+.SgH-blue {
+	color: var(--SgH-blue);
+}
+
+.bg-SgH-blue {
+	background: var(--SgH-blue);
+}
+
+.sg-red {
+	color: var(--sg-red);
+}
+
+.bg-sg-red {
+	background: var(--sg-red);
+}
+
+.world-supply-blue {
+	color: var(--world-supply-blue);
+}
+
+.bg-world-supply-blue {
+	background: var(--world-supply-blue);
+}
+
+.h-cool-blue {
+	color: var(--h-cool-blue);
+}
+
+.bg-h-cool-blue {
+	background: var(--h-cool-blue);
+}
